@@ -12,6 +12,13 @@
         android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/tv_countdown" />
+
+    <Button
+        android:text="跳过"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_jump" />
+
 
 </LinearLayout>

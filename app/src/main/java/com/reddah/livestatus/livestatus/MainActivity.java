@@ -8,10 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import layout.core_service;
 import layout.overall_status;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         //使用ViewPager的适配器
         tabs.setTabsFromPagerAdapter(adapter);
+
+
     }
 
 
@@ -48,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
         mTitle.add("XboxOne");
 
         mFragment.add(new overall_status());
-        mFragment.add(new overall_status());
-        mFragment.add(new overall_status());
-        mFragment.add(new overall_status());
+        mFragment.add(new core_service());
+        //mFragment.add(new overall_status());
+        //mFragment.add(new overall_status());
 
     }
 }

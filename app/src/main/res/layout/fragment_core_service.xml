@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:text="this is overall status"
+        android:text="this is core services"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_overall_status" />
